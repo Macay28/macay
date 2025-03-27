@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    height: 10vh;
+}
+
+.btn-contact {
+    border-color: white;
+    color: orange;
+    -webkit-text-fill-color: white;
+}
+
+.btn-contact1 {
+    border-color: white;
+    color: orange;
+    -webkit-text-fill-color: black;
+}
+
+.btn-contact:hover {
+    border-color: white;
+}
+
+.btn-contact1:hover {
+    border-color: white;
+}
+
+#banner .container {
+    height: 70vh;
+    background: url('./op.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+#company {
+    padding: 50px 0;
+    border-bottom: 2px solid lightblue; 
+}
+
+#company img {
+    width: 100%;
+}
+
+#services {
+    padding: 100px 0;
+}
+
+#services .container {
+    background-color: #0d83b5;
+    height: 400px;
+    border-radius: 30px;
+    padding: 50px 50px 0 50px;
+}
+
+.card-img-top {
+    width: 100%;
+    border-radius: 30px;
+}
+.card {
+    min-height: 320px;
+    border-radius: 30px;
+    border: none;
+}
